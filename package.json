@@ -1,0 +1,22 @@
+{
+  "name": "express-api-server",
+  "version": "1.0.0",
+  "description": "API Server for React PWA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cosmodon/express-api-server.git"
+  },
+  "keywords": [
+    "Ready1643go"
+  ],
+  "author": "Cosmodon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cosmodon/express-api-server/issues"
+  },
+  "homepage": "https://github.com/Cosmodon/express-api-server#readme"
+}
