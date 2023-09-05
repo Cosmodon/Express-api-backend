@@ -1,7 +1,7 @@
 language: node_js
 env:
   global:
-    - CC_TEST_REPORTER_ID=get-this-from-code-climate-repo-page
+    - CC_TEST_REPORTER_ID=a07e81146415185a3d50d7a8c6339e8bbd476087537ba8348c30e57de55313de
 matrix:
   include:
   - node_js: '12'
@@ -12,8 +12,8 @@ install:
 after_success: yarn coverage
 before_script:
   - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
-  - chmod +x ./469950af9d6a4bf458bce98072d8750e9a11a97a46ce743cf2161aa000465b0d
-  - ./469950af9d6a4bf458bce98072d8750e9a11a97a46ce743cf2161aa000465b0d before-build
+  - chmod +x ./cc-test-reporter
+  - ./cc-test-reporter before-build
 script:
   - yarn test
 after_script:
