@@ -1,5 +1,5 @@
 import express from 'express';
-import { messagesPage } from '../controllers/messages';
+import { indexPage, messagesPage } from '../controllers/messages';
 import { indexPage } from '../controllers/home';
 
 const indexRouter = express.Router();

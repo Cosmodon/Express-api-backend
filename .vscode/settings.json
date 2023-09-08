@@ -1,0 +1,17 @@
+{
+  "sqltools.connections": [
+    {
+      "pgOptions": {
+        "statement_timeout": 10000,
+        "query_timeout": 10000,
+        "max": 1
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "driver": "PostgreSQL",
+      "name": "ConKITE",
+      "connectString": "postgres://nvmtmstv:4URho2Zu8EzkwcrSHvM2oYU92f3_cNhP@otto.db.elephantsql.com/nvmtmstv",
+      "connectionTimeout": 10000
+    }
+  ]
+}
